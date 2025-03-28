@@ -1,0 +1,1257 @@
+{
+  "elements": [
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[06]",
+      "title": "circumstances",
+      "text": "circumstances requiring users to log out of the system are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[05]",
+      "title": "time period",
+      "text": "the time period of expected inactivity requiring users to log out of the system is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[04]",
+      "title": "time period",
+      "text": "the time period within which to notify account managers and designated personnel or roles when system usage or the need-to-know changes for an individual is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[03]",
+      "title": "time period",
+      "text": "the time period within which to notify account managers and designated personnel or roles when users are terminated or transferred is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[02]",
+      "title": "time period",
+      "text": "the time period within which to notify account managers and designated personnel or roles when accounts are no longer required is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.05.ODP[03]",
+      "title": "frequency",
+      "text": "the frequency at which to review the privileges assigned to roles or classes of users is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.05.ODP[02]",
+      "title": "security-relevant information",
+      "text": "security-relevant information for authorized access is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.05.ODP[01]",
+      "title": "security functions",
+      "text": "security functions for authorized access are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.06.ODP[01]",
+      "title": "personnel or roles",
+      "text": "personnel or roles to which privileged accounts on the system are to be restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.08.ODP[03]",
+      "title": "SELECTED PARAMETER VALUES",
+      "text": "one or more of the following PARAMETER VALUES are selected: {the account or node is locked automatically for <A.03.01.08.ODP[04]: time period>; the account or node is locked automatically until released by an administrator; the next logon prompt is delayed automatically; the system administrator is notified automatically; other action is taken automatically}.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.08.ODP[04]",
+      "title": "",
+      "text": "the time period for an account or node to be locked is defined (if selected).",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.08.ODP[01]",
+      "title": "number",
+      "text": "the number of consecutive invalid logon attempts by a user allowed during a time period is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.08.ODP[02]",
+      "title": "time period",
+      "text": "the time period to which the number of consecutive invalid logon attempts by a user is limited is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.10.ODP[01]",
+      "title": "SELECTED PARAMETER VALUES",
+      "text": "one or more of the following PARAMETER VALUES are selected: {a device lock is initiated after <A.03.01.10.ODP[02]: time period> of inactivity; the user is required to initiate a device lock before leaving the system unattended}.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.10.ODP[02]",
+      "title": "",
+      "text": "the time period of inactivity after which a device lock is initiated is defined (if selected).",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.11.ODP[01]",
+      "title": "conditions or trigger events",
+      "text": "conditions or trigger events that require session disconnect are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.20.ODP[01]",
+      "title": "security requirements",
+      "text": "security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.09.01.ODP[01]",
+      "title": "conditions",
+      "text": "conditions that require the rescreening of individuals are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.09.02.ODP[01]",
+      "title": "time period",
+      "text": "the time period within which to disable system access is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.17.03.ODP[01]",
+      "title": "security requirements",
+      "text": "security requirements to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences from supply chain-related events are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.17.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to review and update the supply chain risk management plan is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.15.02.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which the system security plan is reviewed and updated is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.15.03.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which the rules of behavior are reviewed and updated is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.01.01.ODP[01]",
+      "title": "time period",
+      "text": "the time period for account inactivity before disabling is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.15.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which the policies and procedures for satisfying security requirements are reviewed and updated is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.16.03.ODP[01]",
+      "title": "security requirements",
+      "text": "security requirements to be satisfied by external system service providers are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.12.ODP[01]",
+      "title": "configurations",
+      "text": "configurations for systems or system components to be issued to individuals traveling to high-risk locations are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.16.01.ODP[01]",
+      "title": "systems security engineering principles",
+      "text": "systems security engineering principles to be applied to the development or modification of the system and system components are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.12.ODP[02]",
+      "title": "security requirements",
+      "text": "security requirements to be applied to the system or system components when individuals return from travel are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[02]",
+      "title": "ports",
+      "text": "ports to be prohibited or restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[01]",
+      "title": "functions",
+      "text": "functions to be prohibited or restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[06]",
+      "title": "frequency",
+      "text": "the frequency at which to review the system to identify unnecessary or nonsecure functions, ports, protocols, connections, or services is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[05]",
+      "title": "services",
+      "text": "services to be prohibited or restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[04]",
+      "title": "connections",
+      "text": "connections to be prohibited or restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.06.ODP[03]",
+      "title": "protocols",
+      "text": "protocols to be prohibited or restricted are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.08.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to review and update the list of authorized software programs is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.10.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to review and update the system component inventory is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.02.ODP[01]",
+      "title": "configuration settings",
+      "text": "configuration settings for the system that reflect the most restrictive mode consistent with operational requirements are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.04.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency of baseline configuration review and update is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.13.09.ODP[01]",
+      "title": "time period",
+      "text": "the time period of inactivity after which the system terminates a network connection associated with a communications session is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.13.10.ODP[01]",
+      "title": "requirements",
+      "text": "requirements for key generation, distribution, storage, access, and destruction are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.13.11.ODP[01]",
+      "title": "types of cryptography",
+      "text": "the types of cryptography for protecting the confidentiality of CUI are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.13.12.ODP[01]",
+      "title": "exceptions",
+      "text": "exceptions where remote activation is to be allowed are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.04.ODP[01]",
+      "title": "time period",
+      "text": "the time period within which incident response training is to be provided to system users is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.04.ODP[02]",
+      "title": "frequency",
+      "text": "the frequency at which to provide incident response training to users after initial training is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.04.ODP[03]",
+      "title": "frequency",
+      "text": "the frequency at which to review and update incident response training content is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.04.ODP[04]",
+      "title": "events",
+      "text": "events that initiate a review of the incident response training content are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.03.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to test the effectiveness of the incident response capability for the system is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.02.ODP[02]",
+      "title": "authorities",
+      "text": "authorities to whom incident information is to be reported are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.06.02.ODP[01]",
+      "title": "time period",
+      "text": "the time period to report suspected incidents to the organizational incident response capability is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.12.05.ODP[02]",
+      "title": "frequency",
+      "text": "the frequency at which to review and update agreements is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.12.05.ODP[01]",
+      "title": "SELECTED PARAMETER VALUES",
+      "text": "one or more of the following PARAMETER VALUES are selected: {interconnection security agreements; information exchange security agreements; memoranda of understanding or agreement; service-level agreements; user agreements; non-disclosure agreements; other types of agreements}.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.12.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to assess the security requirements for the system and its environment of operation is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.10.02.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to review physical access logs is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.10.02.ODP[02]",
+      "title": "events or potential indicators of events",
+      "text": "events or potential indications of events requiring physical access logs to be reviewed are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.10.06.ODP[01]",
+      "title": "security requirements",
+      "text": "security requirements to be employed at alternate work sites are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.05.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which system audit records are reviewed and analyzed is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.10.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to review the access list detailing authorized facility access by individuals is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.07.ODP[01]",
+      "title": "granularity of time measurement",
+      "text": "granularity of time measurement for audit record time stamps is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.05.ODP[01]",
+      "title": "time period",
+      "text": "the time period for preventing the reuse of identifiers is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.07.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to update the list of commonly used, expected, or compromised passwords is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.05.ODP[02]",
+      "title": "characteristic",
+      "text": "characteristic used to identify individual status are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.07.ODP[02]",
+      "title": "rules",
+      "text": "password composition and complexity rules are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.04.ODP[01]",
+      "title": "time period",
+      "text": "the time period for organizational personnel or roles receiving audit logging process failure alerts is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.04.ODP[02]",
+      "title": "additional actions",
+      "text": "additional actions to be taken in the event of an audit logging process failure are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.01.ODP[02]",
+      "title": "frequency",
+      "text": "the frequency of event types selected for logging are reviewed and updated.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.12.ODP[02]",
+      "title": "events",
+      "text": "events that trigger the change or refreshment of authenticators are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.12.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency for changing or refreshing authenticators is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.03.01.ODP[01]",
+      "title": "event types",
+      "text": "event types selected for logging within the system are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.08.07.ODP[01]",
+      "title": "types of system media",
+      "text": "types of system media with usage restrictions or that are prohibited from use are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.02.ODP[01]",
+      "title": "devices or types of devices",
+      "text": "devices or types of devices to be uniquely identified and authenticated before establishing a connection are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.05.01.ODP[01]",
+      "title": "circumstances or situations",
+      "text": "circumstances or situations that require re-authentication are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.01.ODP[04]",
+      "title": "events",
+      "text": "events that require security literacy training content updates are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.01.ODP[03]",
+      "title": "frequency",
+      "text": "the frequency at which to update security literacy training content is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.02.ODP[04]",
+      "title": "events",
+      "text": "events that require role-based security training content updates are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.02.ODP[03]",
+      "title": "frequency",
+      "text": "the frequency at which to update role-based security training content is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.02.ODP[02]",
+      "title": "events",
+      "text": "events that require role-based security training are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.02.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to provide role-based security training to assigned personnel after initial training is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.11.02.ODP[04]",
+      "title": "frequency",
+      "text": "the frequency at which to update system vulnerabilities to be scanned is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.01.ODP[02]",
+      "title": "events",
+      "text": "events that require security literacy training for system users are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.02.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to provide security literacy training to system users after initial training is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.11.01.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which to update the risk assessment is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.11.02.ODP[03]",
+      "title": "response times",
+      "text": "response times to remediate system vulnerabilities are defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.11.02.ODP[02]",
+      "title": "frequency",
+      "text": "the frequency at which the system is scanned for vulnerabilities is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.11.02.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which the system is monitored for vulnerabilities is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.14.01.ODP[02]",
+      "title": "time period",
+      "text": "the time period within which to install security-relevant firmware updates after the release of the updates is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.14.02.ODP[01]",
+      "title": "frequency",
+      "text": "the frequency at which malicious code protection mechanisms perform scans is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp",
+      "element_identifier": "A.03.14.01.ODP[01]",
+      "title": "time period",
+      "text": "the time period within which to install security-relevant software updates after the release of the updates is defined.",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.14.01.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.14.02.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.14.01.odp[02]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.11.02.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.11.02.odp[02]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.11.02.odp[03]",
+      "title": "",
+      "text": "organization-defined response times",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.11.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.01.odp[02]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.11.02.odp[04]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.02.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.02.odp[02]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.02.odp[03]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.02.odp[04]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.01.odp[03]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.02.01.odp[04]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.01.odp[01]",
+      "title": "",
+      "text": "organization-defined circumstances or situations requiring re-authentication",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.02.odp[01]",
+      "title": "",
+      "text": "organization-defined devices or types of devices",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.08.07.odp[01]",
+      "title": "",
+      "text": "organization-defined types of system media",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.01.odp[01]",
+      "title": "",
+      "text": "organization-defined event types",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.12.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.12.odp[02]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.01.odp[02]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.04.odp[02]",
+      "title": "",
+      "text": "organization-defined additional actions",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.04.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.07.odp[02]",
+      "title": "",
+      "text": "organization-defined composition and complexity rules",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.05.odp[02]",
+      "title": "",
+      "text": "organization-defined characteristic identifying individual status",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.07.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.05.05.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.07.odp[01]",
+      "title": "",
+      "text": "organization-defined granularity of time measurement",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.10.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.03.05.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.10.06.odp[01]",
+      "title": "",
+      "text": "organization-defined security requirements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.10.02.odp[02]",
+      "title": "",
+      "text": "organization-defined events or potential indications of events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.10.02.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.12.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.12.05.odp[01]",
+      "title": "",
+      "text": "interconnection security agreements; information exchange security agreements; memoranda of understanding or agreement; service-level agreements; user agreements; non-disclosure agreements; other types of agreements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.12.05.odp[02]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.02.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.02.odp[02]",
+      "title": "",
+      "text": "organization-defined authorities",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.03.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.04.odp[04]",
+      "title": "",
+      "text": "organization-defined events",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.04.odp[03]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.04.odp[02]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.06.04.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.13.12.odp[01]",
+      "title": "",
+      "text": "organization-defined exceptions where remote activation is to be allowed",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.13.11.odp[01]",
+      "title": "",
+      "text": "organization-defined types of cryptography",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.13.10.odp[01]",
+      "title": "",
+      "text": "organization-defined requirements for key generation, distribution, storage, access, and destruction",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.13.09.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.02.odp[01]",
+      "title": "",
+      "text": "organization-defined configuration settings",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.10.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.08.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[03]",
+      "title": "",
+      "text": "organization-defined functions, ports, protocols, connections, and services",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[04]",
+      "title": "",
+      "text": "organization-defined functions, ports, protocols, connections, and services",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[05]",
+      "title": "",
+      "text": "organization-defined functions, ports, protocols, connections, and services",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[06]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[01]",
+      "title": "",
+      "text": "organization-defined functions, ports, protocols, connections, and services",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.06.odp[02]",
+      "title": "",
+      "text": "organization-defined functions, ports, protocols, connections, and services",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.12.odp[02]",
+      "title": "",
+      "text": "organization-defined security requirements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.16.01.odp[01]",
+      "title": "",
+      "text": "organization-defined systems security engineering principles",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.04.12.odp[01]",
+      "title": "",
+      "text": "organization-defined system configurations",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.16.03.odp[01]",
+      "title": "",
+      "text": "organization-defined security requirements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.15.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.15.03.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.15.02.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.17.01.odp[01]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.17.03.odp[01]",
+      "title": "",
+      "text": "organization-defined security requirements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.09.02.odp[01]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.09.01.odp[01]",
+      "title": "",
+      "text": "organization-defined conditions requiring rescreening",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.20.odp[01]",
+      "title": "",
+      "text": "organization-defined security requirements",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.11.odp[01]",
+      "title": "",
+      "text": "organization-defined conditions or trigger events requiring session disconnect",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.10.odp[02]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.10.odp[01]",
+      "title": "",
+      "text": "initiating a device lock after [Assignment: organization-defined time period] of inactivity; requiring the user to initiate a device lock before leaving the system unattended",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.08.odp[02]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.08.odp[01]",
+      "title": "",
+      "text": "organization-defined number",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.08.odp[04]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.08.odp[03]",
+      "title": "",
+      "text": "lock the account or node for an [Assignment: organization-defined time period]; lock the account or node until released by an administrator; delay next logon prompt; notify system administrator; take other action",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.06.odp[01]",
+      "title": "",
+      "text": "organization-defined personnel or roles",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.05.odp[01]",
+      "title": "",
+      "text": "organization-defined security functions",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.05.odp[02]",
+      "title": "",
+      "text": "organization-defined security-relevant information",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.05.odp[03]",
+      "title": "",
+      "text": "organization-defined frequency",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[02]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[03]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[04]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[05]",
+      "title": "",
+      "text": "organization-defined time period",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_statement",
+      "element_identifier": "OS-a.03.01.01.odp[06]",
+      "title": "",
+      "text": "organization-defined circumstances",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_type",
+      "element_identifier": "single_select",
+      "title": "Selection (one)",
+      "text": "",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_type",
+      "element_identifier": "multi_select",
+      "title": "Selection (one or more)",
+      "text": "",
+      "doc_identifier": "SP_800_171_3_0_0"
+    },
+    {
+      "element_type": "odp_type",
+      "element_identifier": "single_entry",
+      "title": "Assignment",
+      "text": "",
+      "doc_identifier": "SP_800_171_3_0_0"
+    }
+  ]
+}
